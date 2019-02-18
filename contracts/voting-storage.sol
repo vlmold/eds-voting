@@ -2,12 +2,12 @@ pragma solidity 0.5.3;
 
 contract VotingStorage {
 
-    address owner;
-    mapping (uint64 => address)  indexes ;
-    mapping (address => Vote) votes ;
-    uint64 votesCount = 0 ;
+    address public owner;
+    mapping (uint64 => address) public indexes ;
+    mapping (address => Vote) public votes ;
+    uint64 public votesCount  = 0 ;
 
-    mapping (address => bool) whiteList ;
+    mapping (address => bool)  public whiteList ;
     struct Vote {
         address voter;
         string encryptedOption;
