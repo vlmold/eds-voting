@@ -1,0 +1,5 @@
+{
+  "endpoint": "https://rinkeby.infura.io/v3/eac0a58f8cbc4ebaacb6577fb6df6e32",
+  "keypath": "/Users/macbook/Library/Ethereum/keystore/key.json",
+  "keypassword": "test"
+}
